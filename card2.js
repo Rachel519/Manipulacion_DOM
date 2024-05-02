@@ -51,8 +51,7 @@ function createElements() {
     return cardObj;
   }
   
-  // Crear tarjeta
-  // Inyectamos info
+  // Crear tarjeta e Inyectamos info
   function injectData(obj, user) {
     const bookList = user.fav_books.books.map((e) => {
       const item = document.createElement("ul");
